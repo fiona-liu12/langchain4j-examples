@@ -9,8 +9,8 @@ public class Booking {
     private LocalDate bookingTo;
     private Customer customer;
 
-    public Booking(String bookingNumber, LocalDate bookingFrom, LocalDate bookingTo, Customer customer) {
-        this.bookingNumber = bookingNumber;
+    public Booking(String bookingNumber1, LocalDate bookingFrom, LocalDate bookingTo, Customer customer) {
+        this.bookingNumber = bookingNumber1;
         this.bookingFrom = bookingFrom;
         this.bookingTo = bookingTo;
         this.customer = customer;
